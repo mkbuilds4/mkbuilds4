@@ -14,7 +14,21 @@ Currently building **[Deen n' Dunya](https://deenndunya.org)**, **Sanad+**, and 
 
 ### 🔥 390 Contributions in the Last Year
 
+<details open>
+<summary>📊 View as Graph</summary>
+<br>
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mkbuilds4&theme=react-dark&bg_color=0d1117&color=667eea&line=bf91f3&point=38bdae&area=true&hide_border=true)
+
+</details>
+
+<details>
+<summary>🗓️ View as Heatmap</summary>
+<br>
+
 ![GitHub Contribution Chart](https://ghchart.rshah.org/667eea/mkbuilds4)
+
+</details>
 
 ---
 
