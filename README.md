@@ -1,90 +1,528 @@
-# Hi there, I'm Mohamed 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed - MK Builds</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-## 🚀 About Me
-I'm a builder, developer, and storyteller focused on creating tools that help people grow. I work across mobile apps, backend systems, and AI-driven features, currently building **Deen n' Dunya**, **Sanad+**, and a suite of productivity and community-centered tools under **MK Builds**.
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            color: #e0e0e0;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
 
-I turn raw ideas into fully functional MVPs extremely fast — complete with clean UI, backend architecture, and real user-ready systems. I love shipping quickly, learning from first principles, and turning ideas into real, useful products.
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
 
-**Philosophy:** Build with purpose, ship quickly, and constantly refine using data, design, and first-principles thinking.
+        .hero {
+            text-align: center;
+            margin-bottom: 80px;
+            position: relative;
+        }
 
-## 💻 Tech Stack
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 20px;
+            animation: fadeInDown 1s ease;
+        }
 
-### Languages & Frameworks
-![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
+        .hero .subtitle {
+            font-size: 1.4rem;
+            color: #a0a0a0;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            animation: fadeInUp 1s ease 0.2s both;
+        }
 
-### Backend & Infrastructure
-![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+        .philosophy {
+            font-size: 1.1rem;
+            color: #70A5FD;
+            font-style: italic;
+            animation: fadeInUp 1s ease 0.4s both;
+        }
 
-### Tools & Services
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Notion](https://img.shields.io/badge/-Notion-000000?style=flat-square&logo=notion&logoColor=white)
-![Mixpanel](https://img.shields.io/badge/-Mixpanel-7856FF?style=flat-square&logo=mixpanel&logoColor=white)
+        .stats-section {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 60px;
+            backdrop-filter: blur(10px);
+            animation: fadeIn 1s ease 0.6s both;
+        }
 
-**Daily toolkit:** Cursor, VS Code, Figma, Supabase Studio, Firebase Console, Vercel, Notion
+        .stats-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
 
-**Specialized in:** Mobile-first habit systems, AI-assisted experiences, real-time tracking, gamification, and community-oriented platforms
+        .stats-header h2 {
+            font-size: 2rem;
+            color: #bf91f3;
+            margin-bottom: 10px;
+        }
 
-## 📱 Featured Projects
+        .contribution-count {
+            font-size: 3rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #38bdae 0%, #70A5FD 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-### 🌙 [Deen n' Dunya](https://deenndunya.org)
-A personal-growth system designed to help people build consistency in faith and life through streaks, daily habits, tokens, and long-term challenges. Features a full token economy, challenges system, shop, streak logic, and cross-platform architecture.
+        .contribution-label {
+            color: #a0a0a0;
+            font-size: 1.1rem;
+        }
 
-**🔗 [Visit Deen n' Dunya](https://deenndunya.org)**
+        .github-embed {
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+        }
 
-### 🕌 Sanad+
-A spiritual support companion focused on Salah — reminders, reflections, and khushoo-building tools wrapped in a minimal and modern design.
+        .github-embed img {
+            max-width: 100%;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
 
-### 📚 [Manara](https://manara.mkbuilds.dev)
-An education and CRM platform built for local programs to manage attendance, communication, teacher tools, finances, and community operations in one place.
+        .tech-stack {
+            margin-bottom: 60px;
+        }
 
-**🔗 [Visit Manara](https://manara.mkbuilds.dev)**
+        .tech-stack h2 {
+            font-size: 2rem;
+            color: #bf91f3;
+            margin-bottom: 30px;
+            text-align: center;
+        }
 
-## 🌱 Currently Learning
-- Deeper Islamic studies (Salah, khushoo)
-- Advanced backend patterns and scalable infrastructure
-- Platform-level growth strategies
-- On-device AI and agent workflows
-- Apple's Mini App Partner Program
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
 
-## 🎯 What's Next
-- AI coaching inside apps
-- Intelligent user-insight systems
-- Full mini-app ecosystem inside DnD
+        .tech-category {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 25px;
+            transition: all 0.3s ease;
+        }
 
-## 📊 GitHub Stats
+        .tech-category:hover {
+            transform: translateY(-5px);
+            border-color: #70A5FD;
+            box-shadow: 0 10px 30px rgba(112, 165, 253, 0.2);
+        }
 
-<div align="center">
-  
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mkbuilds4&theme=tokyonight&hide_border=true&background=0D1117)](https://git.io/streak-stats)
+        .tech-category h3 {
+            color: #70A5FD;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
 
-</div>
+        .tech-category ul {
+            list-style: none;
+        }
 
-<div align="center">
+        .tech-category li {
+            color: #c0c0c0;
+            padding: 5px 0;
+            font-size: 0.95rem;
+        }
 
-![mkbuilds4's GitHub stats](https://github-readme-stats.vercel.app/api?username=mkbuilds4&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&include_all_commits=true)
+        .projects {
+            margin-bottom: 60px;
+        }
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mkbuilds4&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8)
+        .projects h2 {
+            font-size: 2rem;
+            color: #bf91f3;
+            margin-bottom: 40px;
+            text-align: center;
+        }
 
-</div>
+        .project-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
 
-## 💡 Beyond Code
-I'm passionate about helping people grow — spiritually, mentally, and personally — through tools that are simple, modern, and genuinely useful. I balance building apps with community organizing, personal development, branding, design, and youth mentorship.
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
 
-**Fun fact:** I've built entire apps, systems, and brands solo — while running community programs and managing academic commitments.
+        .project-card:hover::before {
+            transform: scaleX(1);
+        }
 
-## 🤝 Let's Connect
-I'm open to selective collaborations, especially projects that combine tech, personal growth, and community impact. I love conversations about app building, entrepreneurship, personal growth, Islamic education, and community systems.
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
 
-I'm also open to mentoring youth and beginners in tech.
+        .project-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
 
-[![Website](https://img.shields.io/badge/-mkbuilds.dev-000000?style=flat-square&logo=google-chrome&logoColor=white)](https://mkbuilds.dev)
-[![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/YOUR_HANDLE)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+        .project-icon {
+            font-size: 2rem;
+        }
 
----
+        .project-title {
+            font-size: 1.8rem;
+            color: #fff;
+        }
 
-![Visitor Count](https://komarev.com/ghpvc/?username=mkbuilds4&color=blueviolet&style=flat-square)
+        .project-description {
+            color: #b0b0b0;
+            margin-bottom: 20px;
+            font-size: 1.05rem;
+        }
+
+        .project-link {
+            display: inline-block;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .project-link:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+
+        .learning-section {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 60px;
+        }
+
+        .learning-section h2 {
+            font-size: 2rem;
+            color: #bf91f3;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .learning-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .learning-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 25px;
+        }
+
+        .learning-card h3 {
+            color: #70A5FD;
+            margin-bottom: 15px;
+        }
+
+        .learning-card ul {
+            list-style: none;
+        }
+
+        .learning-card li {
+            color: #c0c0c0;
+            padding: 8px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .learning-card li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: #38bdae;
+        }
+
+        .connect {
+            text-align: center;
+            padding: 60px 20px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .connect h2 {
+            font-size: 2rem;
+            color: #bf91f3;
+            margin-bottom: 20px;
+        }
+
+        .connect p {
+            color: #b0b0b0;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .social-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 30px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-color: transparent;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero .subtitle {
+                font-size: 1.1rem;
+            }
+
+            .contribution-count {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>Hi there, I'm Mohamed 👋</h1>
+            <p class="subtitle">
+                A builder, developer, and storyteller focused on creating tools that help people grow. 
+                I work across mobile apps, backend systems, and AI-driven features, currently building 
+                <strong>Deen n' Dunya</strong>, <strong>Sanad+</strong>, and a suite of productivity and 
+                community-centered tools under <strong>MK Builds</strong>.
+            </p>
+            <p class="philosophy">
+                "Build with purpose, ship quickly, and constantly refine using data, design, and first-principles thinking."
+            </p>
+        </div>
+
+        <div class="stats-section">
+            <div class="stats-header">
+                <h2>🔥 GitHub Activity</h2>
+                <div class="contribution-count">390</div>
+                <div class="contribution-label">contributions in the last year</div>
+            </div>
+            <div class="github-embed">
+                <img src="https://ghchart.rshah.org/667eea/mkbuilds4" alt="GitHub Contribution Chart" />
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <h2>💻 Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3>Mobile & Frontend</h3>
+                    <ul>
+                        <li>Flutter / Dart</li>
+                        <li>iOS & Android</li>
+                        <li>Figma</li>
+                    </ul>
+                </div>
+                <div class="tech-category">
+                    <h3>Backend & Database</h3>
+                    <ul>
+                        <li>Supabase / PostgreSQL</li>
+                        <li>Firebase / Firestore</li>
+                        <li>Edge Functions</li>
+                    </ul>
+                </div>
+                <div class="tech-category">
+                    <h3>Tools & Platform</h3>
+                    <ul>
+                        <li>Cursor / VS Code</li>
+                        <li>Vercel / Notion</li>
+                        <li>Mixpanel / OneSignal</li>
+                    </ul>
+                </div>
+                <div class="tech-category">
+                    <h3>Specialization</h3>
+                    <ul>
+                        <li>Mobile-first systems</li>
+                        <li>AI-assisted experiences</li>
+                        <li>Gamification</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects">
+            <h2>📱 Featured Projects</h2>
+            
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">🌙</span>
+                    <h3 class="project-title">Deen n' Dunya</h3>
+                </div>
+                <p class="project-description">
+                    A personal-growth system designed to help people build consistency in faith and life through 
+                    streaks, daily habits, tokens, and long-term challenges. Features a full token economy, 
+                    challenges system, shop, streak logic, and cross-platform architecture.
+                </p>
+                <a href="https://deenndunya.org" class="project-link" target="_blank">Visit Project →</a>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">🕌</span>
+                    <h3 class="project-title">Sanad+</h3>
+                </div>
+                <p class="project-description">
+                    A spiritual support companion focused on Salah — reminders, reflections, and khushoo-building 
+                    tools wrapped in a minimal and modern design.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <span class="project-icon">📚</span>
+                    <h3 class="project-title">Manara</h3>
+                </div>
+                <p class="project-description">
+                    An education and CRM platform built for local programs to manage attendance, communication, 
+                    teacher tools, finances, and community operations in one place.
+                </p>
+                <a href="https://manara.mkbuilds.dev" class="project-link" target="_blank">Visit Project →</a>
+            </div>
+        </div>
+
+        <div class="learning-section">
+            <h2>🌱 Growth & Learning</h2>
+            <div class="learning-grid">
+                <div class="learning-card">
+                    <h3>Currently Exploring</h3>
+                    <ul>
+                        <li>Deeper Islamic studies</li>
+                        <li>Advanced backend patterns</li>
+                        <li>Scalable infrastructure</li>
+                        <li>Platform-level growth strategies</li>
+                    </ul>
+                </div>
+                <div class="learning-card">
+                    <h3>What's Next</h3>
+                    <ul>
+                        <li>AI coaching inside apps</li>
+                        <li>Intelligent user-insight systems</li>
+                        <li>Mini-app ecosystem inside DnD</li>
+                        <li>On-device AI & agent workflows</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="connect">
+            <h2>🤝 Let's Connect</h2>
+            <p>
+                Open to selective collaborations, especially projects that combine tech, personal growth, 
+                and community impact. I love conversations about app building, entrepreneurship, personal 
+                growth, Islamic education, and community systems.
+            </p>
+            <div class="social-links">
+                <a href="https://mkbuilds.dev" class="social-link" target="_blank">
+                    🌐 Portfolio
+                </a>
+                <a href="https://instagram.com/YOUR_HANDLE" class="social-link" target="_blank">
+                    📸 Instagram
+                </a>
+                <a href="mailto:YOUR_EMAIL" class="social-link" target="_blank">
+                    ✉️ Email
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
