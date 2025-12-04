@@ -12,7 +12,7 @@ Currently building **[Deen n' Dunya](https://deenndunya.org)**, **Sanad+**, and 
 
 ---
 
-### 🔥 390 Contributions in the Last Year
+### 🔥 GitHub Activity
 
 <details open>
 <summary>📊 View as Graph</summary>
@@ -107,8 +107,8 @@ Also open to **mentoring youth and beginners in tech**.
 <div align="center">
 
 [![Website](https://img.shields.io/badge/🌐_Portfolio-mkbuilds.dev-667eea?style=for-the-badge)](https://mkbuilds.dev)
-[![Instagram](https://img.shields.io/badge/📸_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/YOUR_HANDLE)
-[![Email](https://img.shields.io/badge/✉️_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:YOUR_EMAIL)
+[![Instagram](https://img.shields.io/badge/📸_Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/@mkbuilds4)
+[![Email](https://img.shields.io/badge/✉️_Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohamed@mkbuilds.dev)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=mkbuilds4&color=667eea&style=for-the-badge)
 
