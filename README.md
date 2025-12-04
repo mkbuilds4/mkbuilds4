@@ -56,9 +56,20 @@ An education and CRM platform built for local programs to manage attendance, com
 - Full mini-app ecosystem inside DnD
 
 ## 📊 GitHub Stats
-![mkbuilds4's GitHub stats](https://github-readme-stats.vercel.app/api?username=mkbuilds4&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mkbuilds4&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117)
+<div align="center">
+  
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=mkbuilds4&theme=tokyonight&hide_border=true&background=0D1117)](https://git.io/streak-stats)
+
+</div>
+
+<div align="center">
+
+![mkbuilds4's GitHub stats](https://github-readme-stats.vercel.app/api?username=mkbuilds4&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&count_private=true&include_all_commits=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=mkbuilds4&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&langs_count=8)
+
+</div>
 
 ## 💡 Beyond Code
 I'm passionate about helping people grow — spiritually, mentally, and personally — through tools that are simple, modern, and genuinely useful. I balance building apps with community organizing, personal development, branding, design, and youth mentorship.
